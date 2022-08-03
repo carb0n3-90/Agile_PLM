@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Tests.Login_Test"/>
+      <class name="Tests.ADO_TC_37348_Test"/>
+      <class name="Tests.ADO_TC_37349_Test"/>
+      <class name="Tests.ADO_TC_37351_Test"/>
+      <class name="Tests.ADO_TC_37352_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
